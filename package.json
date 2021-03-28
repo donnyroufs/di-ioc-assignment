@@ -4,7 +4,7 @@
   "main": "Bootstrap.ts",
   "scripts": {
     "run:dev": "ts-node-dev --respawn --transpile-only --no-notify -r tsconfig-paths/register src/bootstrap.ts",
-    "test:container": "jest ./User.controller.spec.ts --watch",
+    "test:container": "jest ./container.spec.ts --watch",
     "test:final": "jest ./user-controller.spec.ts --watch"
   },
   "license": "MIT",
